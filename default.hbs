@@ -9,6 +9,7 @@
     <title>{{meta_title}}</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#317EFB" />
 
     {{!-- Preload assets --}}
     <link rel="preload" href="{{asset "css/app.css"}}" as="style" />
@@ -24,7 +25,7 @@
 
     {{!-- Styles & Scripts --}}
     <style>
-      /* These font-faces are here to make fonts work if the Ghost instance is installed in a subdirectory */
+  
 
       /* source-sans-pro-regular */
       @font-face {
@@ -131,7 +132,7 @@
     {{!-- The #block helper will pull in data from the #contentFor other template files --}}
     {{{block "scripts"}}}
 
-    {{!-- Ghost outputs important scripts and data with this tag --}}
+    {{!--  outputs important scripts and data with this tag --}}
     {{ghost_foot}}
   </body>
 </html>
